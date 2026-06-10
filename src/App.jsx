@@ -6,7 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 import { AlertDialogDestructive } from "./components/ui/AlertDialogDestructive";
 
 function App() {
-  const [openForm, setOpenForm] = useState(false);
+  // const [openForm, setOpenForm] = useState(false);
   const [task, setTask] = useState([]);
   const [editMode, setEditMode] = useState(null);
   const [addInput, setAddInput] = useState("");
